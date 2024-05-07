@@ -1,0 +1,95 @@
+@import url('https://fonts.googleapis.com/css2?family=Khand:wght@300;400;500;600;700&display=swap');
+
+*{
+  font-family: "Khand", sans-serif;
+  font-weight: 400;
+  font-style: normal;
+  box-sizing: border-box;
+}
+#root{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+  width: 100vw;
+  flex-wrap: wrap;
+  gap: 20px;
+}
+h3{
+  margin: 10px 0;
+}
+h6{
+  margin: 5px 0;
+  text-transform: uppercase;
+}
+p{
+  text-align: center;
+  line-height: 21px;
+}
+.Card-container{
+  background-color: dodgerblue;
+  border-radius: 5px;
+  box-shadow: 0 10px 20px -10px black;
+  color: white;
+  padding: 5px;
+  padding-top: 30px;
+  width: 350px;
+  text-align: center;
+  position: relative;
+}
+.pro{
+  color: blue;
+  border-radius: 3px;
+  font-size: 14px;
+  font-weight: bold;
+  padding: 3px 7px;
+  position: absolute;
+  top: 30px;
+  left: 60px;
+}
+.online{
+  background-color: greenyellow;
+}
+.offline{
+  background-color: red;
+}
+img{
+  border-radius: 70px;
+  border: 3px solid white;
+  padding: 7px;
+}
+.buttons{
+  display: flex;
+  justify-content: center;
+  gap: 10px;
+  .primary{
+    background-color: cadetblue;
+    border: 1px solid cadetblue;
+    border-radius: 3px;
+    color: white;
+    padding: 10px 25px;
+  }
+  .outline{
+    background-color: dodgerblue;
+  }
+}
+.skills{
+  background-color: cadetblue;
+  text-align: left;
+  padding: 2px 15px;
+  margin-top: 10px;
+  ul{
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+  }
+  ul li{
+    border: 1px solid dodgerblue;
+    display: inline-block;
+    border-radius: 2px;
+    padding: 7px;
+    margin: 0 7px 7px 0;
+    font-size: 12px;
+  }
+}
+
